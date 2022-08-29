@@ -13,6 +13,7 @@ public class Q03_ForLoopYıldız {
         int sutunsayisi=5;
 
 
+
         for (int i = 0; i <satirsayisi; i++) {
             for (int j =0; j <sutunsayisi; j++) {
                 System.out.print( "* ");
