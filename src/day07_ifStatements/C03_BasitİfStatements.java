@@ -16,6 +16,8 @@ public class C03_BasitİfStatements {
             System.out.println("ucuncu satir");
         }
 
+
+
         if (sayi%2==0)
             System.out.println("sayi cift");             // bir tek bu satır if ile şarta bağlı çalışır
             System.out.println("cift kalacaktir");       //{} olamdğı için şart sağlanmasada hep çalışr

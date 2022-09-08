@@ -11,11 +11,16 @@ public class C05_Scanner {
         System.out.println("lutfen birinci sayiyi giriniz");
         double sayi1=scan.nextDouble();
 
-                //ikinci sayı için yeniden object oluşturmaya gerek yoktur
+        //ikinci sayı için yeniden object oluşturmaya gerek yoktur
+
         System.out.println("lutfen ikinci sayiyi giriniz");
         double sayi2= scan.nextDouble();
 
         System.out.println("girilen sayilarin çarpimi ="+" "+ sayi1*sayi2 );
+
+        System.out.println("sayıların toplamı :"+" "+ (sayi1+sayi2));
+
+        System.out.println("sayıların farkı :"+" "+( sayi1-sayi2));
 
     }
 }
